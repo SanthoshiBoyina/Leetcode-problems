@@ -1,0 +1,20 @@
+
+https://hive.smartinterviews.in/contests/smart-interviews-basic/problems/natural-numbers-sum?page=0&pageSize=10&search=sum
+
+Natural Numbers Sum bookmark_borderGiven positive integer - N, print the sum of the first N natural numbers.
+
+Input Format
+The first and only line of input contains a positive integer - N.
+
+Output Format
+Print the sum of the first N natural numbers.
+
+Constraints
+1 <= N <= 104
+
+Example
+Input
+4
+
+Output
+10
