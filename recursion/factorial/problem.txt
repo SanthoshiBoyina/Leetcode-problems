@@ -1,0 +1,19 @@
+https://hive.smartinterviews.in/contests/smart-interviews-basic/problems/factorial?page=0&pageSize=10&search=fac
+
+Factorial bookmark_borderGiven a non-negative number - N. Print N!
+
+Input Format
+The first and only line of input contains a number - N.
+
+Output Format
+Print factorial of N.
+
+Constraints
+0 <= N <= 10
+
+Example
+Input
+5
+
+Output
+120
