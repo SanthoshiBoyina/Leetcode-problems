@@ -1,0 +1,23 @@
+Implement Merge Sort bookmark_borderGiven an array of size N, implement Merge sort.
+
+Input Format
+The first line of input contains an integer N - the size of an array. The second line contains the elements of the array.
+
+Output Format
+For each merge call of Merge Sort, print the array elements.
+
+Constraints
+1 <= N <= 20
+1 <= A[i] <= 103
+
+Example
+Input
+6
+5 1 3 15 10 4
+
+Output
+1 5 3 15 10 4 
+1 3 5 15 10 4 
+1 3 5 10 15 4 
+1 3 5 4 10 15 
+1 3 4 5 10 15 
