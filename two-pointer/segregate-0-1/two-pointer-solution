@@ -1,0 +1,23 @@
+// User function template for C++
+
+class Solution {
+  public:
+    void segregate0and1(vector<int> &arr) {
+        // code here
+        
+        int n = arr.size(), p1 = 0, p2 = n-1;
+        while(p1 < p2) {
+            while(p1 < n && arr[p1] == 0) {
+                p1++;
+            }
+            while(p2 >= 0 && arr[p2] == 1) {
+                p2--;
+            }
+            if(p1 < p2) {
+                int temp = arr[p1];
+                arr[p1] = arr[p2];
+                arr[p2] = temp;
+            }
+        }
+    }
+};
